@@ -1,13 +1,58 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(https://d9me64que7cqs.cloudfront.net/fonts/open-sans.regular-04538e1ebc1d7bbb837ab97f61eba27ed92cf271d55df451c7d375f52a2f03e8896f2f156cf7e142a7f150d9a90d2f3a123c2bcdced31b6f67d0cb6bfc845626.woff);
+}
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.addressBook{
+display:grid;
+}
+.head{
+  font-family: fantasy;
+  display:flex;
+  background-color: #0265d6;
+  justify-content: center;
+  height:50px;
+  font-size: 50px;
+}
+.title{
+  font-size: 60px;
+}
+.display{
+  height: 100px;
+  display:flex;
+  background-color: #0265d6;
+  border-color: #0265d6;
+  color: white;
+  justify-content: center;
+  align-items: center;
+
+}
+.button{
+  height: 40px;
+  display:flex;
+  background-color: #0265d6;
+  border-color: #0265d6;
+  color: white;
+  border-color: black;
+}
+.entry{
+  height:50px;
+  width:1000px;
+  
+}
+.output{
+    width: 100%;
+    height: 700px;
+    background-image: url(./images/background4.jpg);
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    font-size: 30px;
+  
 }
